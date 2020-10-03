@@ -1,0 +1,45 @@
+---
+published: true
+title: 백준 10539
+date:
+  'Wed Sep 30 2020 09:00:00 GMT+0900 (대한민국 표준시)': null
+categories:
+  - 백준
+tags:
+  - 백준
+  - 브론즈
+comments: true
+---
+## C++
+
+```cpp
+#include <bits/stdc++.h
+using namespace std;
+
+int A[100], B[100];  // 배열 2개 선언
+
+int main(){
+    ios_base::sync_with_stdio(NULL);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    int n;
+    cin  n;
+    for(int i=0; i<n; i++){
+        cin  B[i];  // 배열 B에 입력받음
+    }
+
+    A[0] = B[0];
+    int temp=0;
+    for(int i=1; i<n; i++){
+        temp += A[i-1];  // A[i]앞의 모든 배열을 더함
+        A[i] = B[i]*(i+1)-temp;  // B[i]를 사용해서 A[i]를 계산
+    }
+
+    for(int i=0; i<n; i++){
+        cout << A[i] << " ";
+    }
+
+    return 0;
+}
+```
