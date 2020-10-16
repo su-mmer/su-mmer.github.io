@@ -25,7 +25,7 @@ author: su-mmer                  # change to your full name
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: su-mmer             # change to your github username
+  username:              # change to your github username
 
 twitter:
   username: summerCalendar           # change to your twitter username
@@ -58,11 +58,11 @@ google_analytics:
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
+​    enabled: false
     # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+​    proxy_url: ''
+​    proxy_endpoint: ''
+​    cache: false  # pv data local cache, good for the users from GFW area.
 
 disqus:
   comments: true  # boolean type, the global switch for posts comments.
