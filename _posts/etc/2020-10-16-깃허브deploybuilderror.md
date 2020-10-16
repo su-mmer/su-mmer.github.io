@@ -1,3 +1,4 @@
+```
 ---
 title: "[jekyll] 깃허브 deploy build error"
 date: 2020-10-16 13:00 GMT+0900
@@ -24,17 +25,18 @@ tags:
 
 ## 해결
 
-```
+​```
 $ git gc --prune=now
 $ git remote prune origin
-```
+​```
 
 
 
 요로케 하고 안되면 
 
-```
+​```
 git fetch
-```
+​```
 
 이거 한줄 더해주니까 문제 해결...ㅎ..
+```
