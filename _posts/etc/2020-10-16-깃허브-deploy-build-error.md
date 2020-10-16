@@ -1,5 +1,5 @@
 ---
-title: jekyll - 깃허브 deploy build error
+title: "[jekyll] 깃허브 deploy build error"
 date: 2020-10-16 13:00
 categories:
   - jekyll
